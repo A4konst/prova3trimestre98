@@ -1,9 +1,34 @@
-header{  
+*{
+
+margin: 0;
+padding: 0%;
+
+
+
+
+}
+
+.cabecalho{  
 background-color: #9E170E;
 color: white;
-
+padding: 24px 0;
+justify-content: flex-start;
 }
 .imgcardio{ 
 width: 20%;
+
+}
+.lista-item{
+
+    display: inline-block;
+    margin: 10px 16px 12px;
+}
+.img-heart{
+width: 50%;
+justify-content: space-around;
+
+}
+.fundo{
+background-image: linear-gradient(#9E170E);
 
 }
